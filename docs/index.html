@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello, World! • Docs</title>
+  <meta name="description" content="A minimal Hello World page.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header" role="banner">
+  <div class="wrap">
+    <div class="brand">Hello World</div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#hello">Hello</a>
+      <a href="#about">About</a>
+    </nav>
+  </div>
+</header>
+<main class="site-main wrap" id="hello" role="main">
+  <h1>Hello, World!</h1>
+  <p>Welcome to a tiny demo page styled in a way similar to the visual feel of w3.org: clean, readable, with a strong blue header.</p>
+
+  <section class="card">
+    <h2>Interactive Example</h2>
+    <p id="message">Click the button to update this message.</p>
+    <button id="action-btn" class="btn">Say Hello</button>
+  </section>
+
+  <section id="about" class="card">
+    <h2>About this page</h2>
+    <p>
+      This page lives under <code>/docs</code> and loads its own CSS and JavaScript files.
+      It uses semantic HTML, accessible contrast, and responsive layout.
+    </p>
+  </section>
+</main>
+<footer class="site-footer" role="contentinfo">
+  <div class="wrap">
+    <small>
+      Built for a "Hello World" task.
+    </small>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
